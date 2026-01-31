@@ -48,3 +48,17 @@ while True:
             print("Division by zero is not allowed.")
         else:
             print_result(number1 / number2)
+
+    elif choice == "5":
+        print_result(math.sin(number1 / number2))
+
+    elif choice == "6":
+        print_result(math.cos(number1 / number2))
+
+    elif choice == "7":
+        number1 = ask_number()
+        number2 = ask_number()
+
+    elif choice == "8":
+        print("Thank you!")
+        break
